@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEAKSON AI Assistant</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="sidebar">
+
+            <div class="company-logo">
+        <img src="{{ url_for('static', filename='peakson.png') }}"
+         alt="Peakson Logo">
+        </div>
+
+            <div class="info-box">
+                <h3>Time</h3>
+                <p id="time"></p>
+            </div>
+
+            <div class="info-box">
+                <h3>Date</h3>
+                <p id="date"></p>
+            </div>
+
+            <div class="info-box">
+                <h3>Voice Mode</h3>
+
+                <select id="voiceMode">
+                 <option>Microsoft David</option>
+                 <option>Microsoft Mark</option>
+                 <option>Microsoft Zira</option>
+                 <option>Microsoft Ravi</option>
+                 <option>Microsoft Heera</option>
+                <option>Mute</option>
+</select>
+
+            </div>
+
+        </div>
+
+        <div class="main">
+
+            <div id="chatbox"></div>
+
+            <div class="input-area">
+            <div id="recordingIndicator" class="recording-hidden">
+                🎤 Listening...
+            </div>
+                <textarea
+                 id="message"  placeholder="Type your message...">
+                </textarea>
+
+                <button id="sendBtn">Send</button>
+
+                <button id="micBtn">🎤</button>
+                <button id="stopBtn" style="display:none;">⏹</button>
+                <button id="stopSpeechBtn">🔇</button>
+
+                <label for="fileInput" class="attach-btn">📎</label>
+                <input type="file" id="fileInput" hidden>
+                <span id="fileName">No file selected</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
