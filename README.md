@@ -1,11 +1,14 @@
 # PEAKSON AI
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Flask](https://img.shields.io/badge/Flask-Web_App-black)
+![AI](https://img.shields.io/badge/AI-Assistant-cyan)
+
 <p align="center">
-  <img src="PEAKSON.png" width="800">
+  <img src="PEAKSON.png" width="700">
 </p>
 
-
-PEAKSON AI is a Flask-based intelligent assistant inspired by JARVIS. It supports both text and voice interaction, analyzes uploaded images and PDF documents, generates AI-powered responses, and maintains conversation logs for future reference.
+PEAKSON AI is a Flask-based intelligent assistant . It supports both text and voice interaction, analyzes uploaded images and PDF documents, generates AI-powered responses, and maintains conversation logs for future reference.
 
 ## User Interface
 
