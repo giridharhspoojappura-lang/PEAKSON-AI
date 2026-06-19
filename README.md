@@ -1,5 +1,10 @@
 # PEAKSON AI
 
+<p align="center">
+  <img src="peakson-banner.png" width="800">
+</p>
+
+
 PEAKSON AI is a Flask-based intelligent assistant inspired by JARVIS. It supports both text and voice interaction, analyzes uploaded images and PDF documents, generates AI-powered responses, and maintains conversation logs for future reference.
 
 ## Features
