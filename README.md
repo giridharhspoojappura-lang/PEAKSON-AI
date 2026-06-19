@@ -45,6 +45,26 @@ PEAKSON AI is a Flask-based intelligent assistant . It supports both text and vo
 * PyPDF2
 * Pillow (PIL)
 
+## 📁 Project Structure
+
+PEAKSON-AI/
+│
+├── app.py                  # Main Flask application
+├── requirements.txt        # Project dependencies
+├── README.md               # Project documentation
+│
+├── static/
+│   ├── style.css           # UI styling
+│   ├── script.js           # Frontend logic
+│   └── peakson.png         # PEAKSON logo
+│
+├── templates/
+│   └── index.html          # Main web interface
+│
+├── uploads/               # Uploaded images and PDFs
+│
+└── conversation_log.txt   # Chat history logs
+
 ## Project Highlights
 
 * Real-time AI conversations
