@@ -1,7 +1,7 @@
 # PEAKSON AI
 
 <p align="center">
-  <img src="peakson-banner.png" width="800">
+  <img src="PEAKSON.png" width="800">
 </p>
 
 
