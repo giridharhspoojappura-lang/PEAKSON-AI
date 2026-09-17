@@ -130,7 +130,7 @@ User: {msg}
 
     except Exception as e:
 
-        print("ERROR:", e)
+        print("Error:", e)
 
         error = str(e)
 
